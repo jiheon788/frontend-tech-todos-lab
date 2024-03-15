@@ -1,4 +1,4 @@
-# todos-examples-monorepo
+# frontend-tech-todos-lab
 
 이 프로젝트는 다양한 프론트엔드 기술 스택을 연습하고 익히기 위한 todos monorepo입니다. 목표는 간단한 할 일 목록을 관리하는 애플리케이션을 다양한 방식으로 구현하고 실험하는 것입니다. 이 monorepo에는 여러 개의 패키지가 포함되어 있으며, 각 패키지는 다른 기술 스택 또는 개발 방법론을 사용하여 구현된 todos 애플리케이션입니다.
 
