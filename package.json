@@ -7,7 +7,9 @@
   "scripts": {
     "start:server": "yarn workspace @monorepo/server start",
     "build:server": "yarn workspace @monorepo/server build",
-    "start:client-global-state": "yarn workspace @monorepo/client-global-state start"
+    "start:client-global-state": "yarn workspace @monorepo/client-global-state start",
+    "start:client-tdd": "yarn workspace @monorepo/client-tdd dev",
+    "watch:client-tdd": "yarn workspace @monorepo/client-tdd watch"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
