@@ -1,4 +1,16 @@
 {
   "name": "todos-examples-monorepo",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:server": "yarn workspace @monorepo/server start",
+    "build:server": "yarn workspace @monorepo/server build"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^4.7.4"
+  }
 }
